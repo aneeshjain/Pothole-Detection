@@ -197,7 +197,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         let credentialsProvider = AWSCognitoCredentialsProvider(regionType:.APSouth1,
-                                                                identityPoolId:"ap-south-1:35944358-2654-4c85-8a49-6c44830cc503")
+                                                                identityPoolId:"POOL_ID")
         
         let configuration = AWSServiceConfiguration(region:.APSouth1, credentialsProvider:credentialsProvider)
         
