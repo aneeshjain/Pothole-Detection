@@ -1,4 +1,4 @@
-# Remember to remove resource-pool id before push
+
 ## Intelligent Pothole Detection
 ## Overview
 
