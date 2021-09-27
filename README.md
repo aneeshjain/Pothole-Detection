@@ -11,12 +11,13 @@ This is a project that automates detection of potholes on poor quality roads usi
 
 First this collected data is used to train a model that facilitates pothole detection. The model is deployed to AWS and then realtime data is sent to the model for inferencing when a user is driving. 
 
-![](https://github.com/aneeshjain/Pothole-Detection/blob/master/pics/Process%20Flow.jpg =100x20)
+
+<img src="https://github.com/aneeshjain/Pothole-Detection/blob/master/pics/Process%20Flow.jpg" width="600">
 
 
 This is used to create a map of potholes which can be displayed to all users so that they can effectively plan their route.
 
-![](https://github.com/aneeshjain/Pothole-Detection/blob/master/pics/map.png =100x20)
+<img src="https://github.com/aneeshjain/Pothole-Detection/blob/master/pics/map.png" width="600">
 
 
 #### The repository has the following directory structure contains the following files and directories and files:
