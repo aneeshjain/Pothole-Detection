@@ -6,7 +6,7 @@ This is a project that automates detection of potholes on poor quality roads usi
 
 
 
-<img src="https://github.com/aneeshjain/Pothole-Detection/blob/master/pics/App_screens.png" width="200" height = "100">
+<img src="https://github.com/aneeshjain/Pothole-Detection/blob/master/pics/App_screens.png" width="500" height = "200">
 
 
 First this collected data is used to train a model that facilitates pothole detection. The model is deployed to AWS and then realtime data is sent to the model for inferencing when a user is driving. 
