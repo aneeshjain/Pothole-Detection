@@ -5,8 +5,8 @@
 This is a project that automates detection of potholes on poor quality roads using an iOS app and AWS Lambda Functions. The iOS app is used to collect data from an iPhone placed in a moving vehicle by tracking its location, accelerometer and gyroscope readings. One screen on the app tracks the movement data, and on the other, another person sitting in the passenger seat annotates every time a pothole is encountered against a timestamp. Timestamps from both sets are compared and used to combine the data.
 
 
-![] (https://github.com/aneeshjain/Pothole-Detection/blob/master/pics/App_screens.png | width=100)
-<img src="https://github.com/aneeshjain/Pothole-Detection/blob/master/pics/App_screens.png" width="48">
+
+<img src="https://github.com/aneeshjain/Pothole-Detection/blob/master/pics/App_screens.png" width="200" height = "100">
 
 
 First this collected data is used to train a model that facilitates pothole detection. The model is deployed to AWS and then realtime data is sent to the model for inferencing when a user is driving. 
